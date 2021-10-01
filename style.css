@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.top{
+    height: 70px;
+    width:99%;
+    background: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: 0px 2px 8px;
+    position: fixed;
+    top:0;
+}
+
+.login_image{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+overflow: hidden;
+border:2px solid;
+}
+
+.logo img{
+height: 50px;
+}
+.login_image img{
+ height: 50px; 
+ width: 50px;  
+}
+.hamburger_icon{
+    font-size: 40px;
+}
+
+
+.hamburger_menu{
+    height: 100%;
+    width: 20%;
+    background: #fff;
+    padding: 20px 20px;
+    box-shadow: 1px 0px 8px 1px;
+    position: relative;
+    left: 0;
+    top: 0;
+    display: none; 
+
+}
+
+.item{
+    margin: 15px;
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+
+
+
+.item:hover{
+    background: rgb(207, 205, 205);
+    font-weight: bold;
+
+}
+#close{
+    position: absolute;
+    right:5%;
+    font-size: 30px;
+}
+.items{
+    margin-top:40px;
+}
